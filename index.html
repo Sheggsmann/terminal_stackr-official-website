@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terminal Stackr</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
     <link rel="stylesheet" href="./css/own-carousel.css">
     <link rel="stylesheet" href="./css/utitlities.css">
@@ -15,7 +16,7 @@
 <body>
 
     <header class="header h-100">
-        <div class="row align-items-center space-between w-100 px-1">
+        <div class="row align-items-center space-between w-100 px-1 sticky-are" id='nav-fix'>
             <div class="logo">
                 <img src="./img/logo.png" alt="our logo">
             </div>
@@ -26,19 +27,19 @@
                         <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="">Services</a>
+                        <a href="#services">Services</a>
                     </li>
                     <li>
-                        <a href="">About Us</a>
+                        <a href="#about">About Us</a>
                     </li>
                     <li>
-                        <a href="">Our Work</a>
+                        <a href="#portfolio">Our Work</a>
                     </li>
                     <li>
                         <a href="">Reviews</a>
                     </li>
                     <li>
-                        <a href="">Contact Us</a>
+                        <a href="#contact">Contact Us</a>
                     </li>
                 </ul>
             </nav>
@@ -49,8 +50,8 @@
                 <h1 class="mb-1 animate__bounceInRight">We've Got All You Need To Establish Your Presence Online.</h1>
                 <p class="mb-1">Terminal Stackr solve the world's biggest problems with Expertise. Reevan helps global brand with digital products on web, mobile and connected platforms.</p>
                 <div class="cta">
-                    <a href="#">View Portfolio</a>
-                    <a href="#">Contact Us</a>
+                    <a href="#portfolio" class="btn-primary">View Portfolio</a>
+                    <a href="#contact" class="btn-primary">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -85,7 +86,7 @@
     </section> -->
 
 
-    <section class="about-us">
+    <section class="about-us" id="about">
         <div class="section-title">
             <p>We are Terminal Stackr</p>
             <h2>We’re a digital brand and <br> experience innovation company.</h2>
@@ -105,7 +106,7 @@
     </section>
 
 
-    <section class="our-process p-5">
+    <section class="our-process p-5" id="process">
         <div class="container">
             <div class="row">
                 <div class="col left">
@@ -131,7 +132,7 @@
     </section>
 
 
-    <section class="services p-5">
+    <section class="services p-5" id="services">
         <div class="container">
             <div class="section-title mb-3">
                 <p>What we do</p>
@@ -164,7 +165,7 @@
     </section>
 
 
-    <section class="portfolio p-5">
+    <section class="portfolio p-5" id="portfolio">
         <div class="container">
             <div class="section-title mb-3">
                 <p>Quality Work</p>
@@ -211,9 +212,223 @@
                 <p>Our Toolings</p>
                 <h2>Technologies we work with</h2>
             </div>
+            <div class="row space-around">
+                <div class="tech-item">
+                    <img src="./img/tech/icons8-python-144.png" alt="">
+                    <p>Python</p>
+                </div>
+                <div class="tech-item">
+                    <img src="./img/tech/icons8-javascript-144.png" alt="">
+                    <p>JavaScript</p>
+                </div>
+                <div class="tech-item">
+                    <img src="./img/tech/icons8-flask-144.png" alt="">
+                    <p>Flask</p>
+                </div>
+                <div class="tech-item">
+                    <img src="./img/tech/icons8-django-144.png" alt="">
+                    <p>Django</p>
+                </div>
+                <div class="tech-item">
+                    <img src="./img/tech/icons8-firebase-144.png" alt="">
+                    <p>Firebase</p>
+                </div>
+                <div class="tech-item">
+                    <img src="./img/tech/icons8-google-analytics-144.png" alt="">
+                    <p>Google Analytics</p>
+                </div>
+                <div class="tech-item">
+                    <img src="./img/tech/icons8-nodejs-144.png" alt="">
+                    <p>Node JS</p>
+                </div>
+                <div class="tech-item">
+                    <img src="./img/tech/icons8-react-native-144.png" alt="">
+                    <p>React</p>
+                </div>
+                <div class="tech-item">
+                    <img src="./img/tech/icons8-react-native-144.png" alt="">
+                    <p>React Native</p>
+                </div>
+                <div class="tech-item">
+                    <img src="./img/tech/icons8-mongodb-144.png" alt="">
+                    <p>Mongo DB</p>
+                </div>
+                <div class="tech-item">
+                    <img src="./img/tech/icons8-postgresql-144.png" alt="">
+                    <p>Postgresql</p>
+                </div>
+                <div class="tech-item">
+                    <img src="./img/tech/icons8-wordpress-144.png" alt="">
+                    <p>Wordpress</p>
+                </div>
+            </div>
         </div>
     </section>
 
+
+    <section class="clients p-5">
+        <div class="container">
+            <div class="section-title">
+                <p>Our Clients</p>
+                <h2>We've worked with some amazing clients</h2>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2>We improve demand for efficiency and quality in entrepreneurship with creative mind.</h2>
+                </div>
+                <div class="col">
+                    <div class="testimonials">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact-us p-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col left">
+                    <div class="section-title mb-2">
+                        <p>Contact Us</p>
+                        <h2>Let's get in touch</h2>
+                    </div>
+                    <div class="row row-1 mb-2">
+                        <div class="contact-item mr-1">
+                            <p class="lead">Phone</p>
+                            <a href="tel:080">
+                                <i class="fa fa-phone-alt"></i> +234 8088866150
+                            </a>
+                        </div>
+                        <div class="contact-item">
+                            <p class="lead">Phone</p>
+                            <a href="tel:080">
+                                <i class="fa fa-phone-alt"></i> +234 8088866150
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="contact-item">
+                            <p class="lead">Email</p>
+                            <a href="tel:080">
+                                <i class="fa fa-envelope"></i> mail@terminalstackr.com
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="lead">Location</p>
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="col right">
+                    <h2 class="mb-2">Share your idea or requirements with us</h2>
+                    <div class="contact-form">
+                        <form action="#">
+                            <div class="form-wrapper form-50">
+                                <input type="text" placeholder="Full Name" class="form-control">
+                                <input type="text" placeholder="Email Address" class="form-control">
+                            </div>
+                            <div class="form-wrapper form-50">
+                                <input type="text" placeholder="Contact Number" class="form-control">
+                                <input type="text" placeholder="Company" class="form-control">
+                            </div>
+                            <div class="form-wrapper form-50">
+                                <input type="text" placeholder="Subject" class="form-control">
+                                <select name="" id="" class="form-control">
+                                    <option value="">Web Development</option>
+                                    <option value="">Graphic Design</option>
+                                    <option value="">Ecommerce Development</option>
+                                    <option value="">App Development</option>
+                                </select>
+                            </div>
+                            <div class="form-wrapper">
+                                <textarea name="" id="">I want a website</textarea>
+                            </div>
+                            <div class="form-wrapper">
+                                <a href="#" class="btn-primary">Send Message</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer p-5">
+        <div class="container">
+            <div class="row space-between">
+                <div class="col">
+                    <!-- <img src="./img/logo.png" alt=""> -->
+                    <p class="mb-2">Overall Client Rating 4.9 out of 5</p>
+                    <div class="social">
+                        <i class="fab fa-facebook-f mr-1"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linked-in"></i>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-phone-alt"></i> +234 808866150
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-phone-alt"></i> +234 8088866150
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-envelope"></i> mail@terminalstackr.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Company</h3>
+                    <ul>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Website Development</a>
+                        </li>
+                        <li>
+                            <a href="#">Mobile App Development</a>
+                        </li>
+                        <li>
+                            <a href="#">Graphic Design</a>
+                        </li>
+                        <li>
+                            <a href="#">Search-engine Optimization</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="separator"></div>
+            <div class="row">
+                <p>2020, Terminal Stackr. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="./js/own-carousel.js"></script>
     <script src="./js/main.js"></script>
