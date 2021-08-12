@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terminal Stackr</title>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
-    <link rel="stylesheet" href="./css/own-carousel.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/aos.css">
     <link rel="stylesheet" href="./css/utitlities.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -27,16 +28,16 @@
                         <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="#about">About Us</a>
                     </li>
                     <li>
-                        <a href="#about">About Us</a>
+                        <a href="#services">Services</a>
                     </li>
                     <li>
                         <a href="#portfolio">Our Work</a>
                     </li>
                     <li>
-                        <a href="">Reviews</a>
+                        <a href="#testimonials">Testimonials</a>
                     </li>
                     <li>
                         <a href="#contact">Contact Us</a>
@@ -47,51 +48,22 @@
 
         <div class="container">
             <div class="home-text">
-                <h1 class="mb-1 animate__bounceInRight">We've Got All You Need To Establish Your Presence Online.</h1>
-                <p class="mb-1">Terminal Stackr solve the world's biggest problems with Expertise. Reevan helps global brand with digital products on web, mobile and connected platforms.</p>
+                <h1 class="mb-1 animate__animated animate__backInRight">We've Got All You Need To Establish Your Presence Online.</h1>
+                <p class="mb-1 animate__animated animate__fadeInRightBig">Terminal Stackr solve the world's biggest problems with Expertise. Reevan helps global brand with digital products on web, mobile and connected platforms.</p>
                 <div class="cta">
-                    <a href="#portfolio" class="btn-primary">View Portfolio</a>
-                    <a href="#contact" class="btn-primary">Contact Us</a>
+                    <a href="#portfolio" class="btn-primary animate__animated animate__fadeInDown">View Portfolio</a>
+                    <a href="#contact" class="btn-primary animate__animated animate__fadeInDown">Contact Us</a>
                 </div>
             </div>
         </div>
     </header>
-    <!-- 
-    <section class="services">
-        <div class="container">
-            <div class="row">
-                <a href="#" class="service-item">
-                    <img src="./img/services/service-1.jpg" alt="">
-                    <div class="service-info">
-                        <p class="service-chip">Development</p>
-                        <h3>Web Design and Development</h3>
-                    </div>
-                </a>
-                <a href="#" class="service-item">
-                    <img src="./img/services/service-2.jpg" alt="">
-                    <div class="service-info">
-                        <p class="service-chip">Mobile</p>
-                        <h3>Mobile Design and Development</h3>
-                    </div>
-                </a>
-                <a href="#" class="service-item">
-                    <img src="./img/services/service-3.jpg" alt="">
-                    <div class="service-info">
-                        <p class="service-chip">Design</p>
-                        <h3>UI/UX Design & Graphic Design</h3>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section> -->
-
 
     <section class="about-us" id="about">
-        <div class="section-title">
+        <div class="section-title" data-aos="fade-down" data-aos-duration="1200">
             <p>We are Terminal Stackr</p>
             <h2>We’re a digital brand and <br> experience innovation company.</h2>
         </div>
-        <div class="about-text mt-1">
+        <div class="about-text mt-1" data-aos="fade-up" data-aos-duration="1500">
             <div class="container">
                 <p class="lead">
                     Reevan started its operation in the year 1999. We are Worldwide, based Web, App and Digital Marketing Company. Our main Domain is Web Design, App Development, Digital Marketing, Product Design and Cloud Services. Customer Satisfaction and the Highest
@@ -100,7 +72,7 @@
                 </p>
             </div>
         </div>
-        <div class="about-img">
+        <div class="about-img" data-aos="fade-up" data-aos-duration="2000">
             <img src="./img/office-view.jpg" alt="">
         </div>
     </section>
@@ -109,7 +81,7 @@
     <section class="our-process p-5" id="process">
         <div class="container">
             <div class="row">
-                <div class="col left">
+                <div class="col left" data-aos="fade-right" data-aos-duration="1500">
                     <div class="section-title mb-1">
                         <p>Our Process</p>
                         <h2>Design, Develop, Deployment</h2>
@@ -124,7 +96,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-left" data-aos-duration="1500">
                     <img src="./img/office-inner4.jpg" alt="">
                 </div>
             </div>
@@ -134,26 +106,26 @@
 
     <section class="services p-5" id="services">
         <div class="container">
-            <div class="section-title mb-3">
+            <div class="section-title mb-3" data-aos="fade-down" data-aos-duration="1200">
                 <p>What we do</p>
                 <h2>We help you communicate with great <br> design strategy and execution</h2>
             </div>
             <div class="row mt-1">
-                <a href="#" class="service-item">
+                <a href="#" class="service-item" data-aos="zoom-in" data-aos-duration="1000">
                     <img src="./img/services/service-1.jpg" alt="">
                     <div class="service-info">
                         <p class="service-chip">Development</p>
                         <h3>Web Design and Development</h3>
                     </div>
                 </a>
-                <a href="#" class="service-item">
+                <a href="#" class="service-item" data-aos="zoom-in" data-aos-duration="1000">
                     <img src="./img/services/service-2.jpg" alt="">
                     <div class="service-info">
                         <p class="service-chip">Mobile</p>
                         <h3>Mobile Design and Development</h3>
                     </div>
                 </a>
-                <a href="#" class="service-item">
+                <a href="#" class="service-item" data-aos="zoom-in" data-aos-duration="1000">
                     <img src="./img/services/service-3.jpg" alt="">
                     <div class="service-info">
                         <p class="service-chip">Design</p>
@@ -167,13 +139,13 @@
 
     <section class="portfolio p-5" id="portfolio">
         <div class="container">
-            <div class="section-title mb-3">
+            <div class="section-title mb-3" data-aos="fade-down" data-aos-duration="1200">
                 <p>Quality Work</p>
                 <h2>We are proud of the work we do.</h2>
             </div>
             <div class="row">
                 <div class="row row-1 space-between">
-                    <a href="#" class="portfolio-item">
+                    <a href="#" class="portfolio-item" data-aos="zoom-in" data-aos-duration="1000">
                         <div class="portfolio-img">
                             <img src="./img/portfolio/creative-work-1.jpg" alt="">
                         </div>
@@ -182,7 +154,7 @@
                             <p>HTML, CSS, JavaScript</p>
                         </div>
                     </a>
-                    <a href="#" class="portfolio-item">
+                    <a href="#" class="portfolio-item" data-aos="zoom-in" data-aos-duration="1000">
                         <div class="portfolio-img">
                             <img src="./img/portfolio/creative-work-2.jpg" alt="">
                         </div>
@@ -191,7 +163,7 @@
                             <p>JavaScript, Express, Node Js</p>
                         </div>
                     </a>
-                    <a href="#" class="portfolio-item">
+                    <a href="#" class="portfolio-item" data-aos="zoom-in" data-aos-duration="1000">
                         <div class="portfolio-img">
                             <img src="./img/portfolio/creative-work-3.jpg" alt="">
                         </div>
@@ -208,56 +180,56 @@
 
     <section class="technologies p-5">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title" data-aos="fade-down" data-aos-duration="1200">
                 <p>Our Toolings</p>
                 <h2>Technologies we work with</h2>
             </div>
             <div class="row space-around">
-                <div class="tech-item">
+                <div class="tech-item" data-aos="fade-up" data-aos-duration="1500">
                     <img src="./img/tech/icons8-python-144.png" alt="">
                     <p>Python</p>
                 </div>
-                <div class="tech-item">
+                <div class="tech-item" data-aos="fade-up" data-aos-duration="1500">
                     <img src="./img/tech/icons8-javascript-144.png" alt="">
                     <p>JavaScript</p>
                 </div>
-                <div class="tech-item">
+                <div class="tech-item" data-aos="fade-up" data-aos-duration="1500">
                     <img src="./img/tech/icons8-flask-144.png" alt="">
                     <p>Flask</p>
                 </div>
-                <div class="tech-item">
+                <div class="tech-item" data-aos="fade-up" data-aos-duration="1500">
                     <img src="./img/tech/icons8-django-144.png" alt="">
                     <p>Django</p>
                 </div>
-                <div class="tech-item">
+                <div class="tech-item" data-aos="fade-up" data-aos-duration="1500">
                     <img src="./img/tech/icons8-firebase-144.png" alt="">
                     <p>Firebase</p>
                 </div>
-                <div class="tech-item">
+                <div class="tech-item" data-aos="fade-up" data-aos-duration="1500">
                     <img src="./img/tech/icons8-google-analytics-144.png" alt="">
                     <p>Google Analytics</p>
                 </div>
-                <div class="tech-item">
+                <div class="tech-item" data-aos="fade-up" data-aos-duration="1500">
                     <img src="./img/tech/icons8-nodejs-144.png" alt="">
                     <p>Node JS</p>
                 </div>
-                <div class="tech-item">
+                <div class="tech-item" data-aos="fade-up" data-aos-duration="1500">
                     <img src="./img/tech/icons8-react-native-144.png" alt="">
                     <p>React</p>
                 </div>
-                <div class="tech-item">
+                <div class="tech-item" data-aos="fade-up" data-aos-duration="1500">
                     <img src="./img/tech/icons8-react-native-144.png" alt="">
                     <p>React Native</p>
                 </div>
-                <div class="tech-item">
+                <div class="tech-item" data-aos="fade-up" data-aos-duration="1500">
                     <img src="./img/tech/icons8-mongodb-144.png" alt="">
                     <p>Mongo DB</p>
                 </div>
-                <div class="tech-item">
+                <div class="tech-item" data-aos="fade-up" data-aos-duration="1500">
                     <img src="./img/tech/icons8-postgresql-144.png" alt="">
                     <p>Postgresql</p>
                 </div>
-                <div class="tech-item">
+                <div class="tech-item" data-aos="fade-up" data-aos-duration="1500">
                     <img src="./img/tech/icons8-wordpress-144.png" alt="">
                     <p>Wordpress</p>
                 </div>
@@ -266,19 +238,104 @@
     </section>
 
 
-    <section class="clients p-5">
+    <section class="clients p-5" id="testimonials">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title" data-aos="fade-down" data-aos-duration="1200">
                 <p>Our Clients</p>
                 <h2>We've worked with some amazing clients</h2>
             </div>
-            <div class="row">
-                <div class="col">
-                    <h2>We improve demand for efficiency and quality in entrepreneurship with creative mind.</h2>
-                </div>
-                <div class="col">
-                    <div class="testimonials">
-
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-box">
+                            <i class="fas fa-quote-left"></i>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi deleniti, 
+                                    nobis optio facere amet repudiandae possimus facilis velit dolore 
+                                    incidunt! Cumque placeat corporis fugiat id?
+                                </p>
+                                <div class="details">
+                                    <div class="img-box">
+                                        <img src="./img/users/user1.jpg" alt="">
+                                    </div>
+                                    <h3>Stacy Uk Stores<br><span>Fashion Designer</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-box">
+                            <i class="fas fa-quote-left"></i>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi deleniti, 
+                                    nobis optio facere amet repudiandae possimus facilis velit dolore 
+                                    incidunt! Cumque placeat corporis fugiat id?
+                                </p>
+                                <div class="details">
+                                    <div class="img-box">
+                                        <img src="./img/users/user2.jpg" alt="">
+                                    </div>
+                                    <h3>Matsuda Tomo<br><span>CEO Japanator</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-box">
+                            <i class="fas fa-quote-left"></i>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi deleniti, 
+                                    nobis optio facere amet repudiandae possimus facilis velit dolore 
+                                    incidunt! Cumque placeat corporis fugiat id?
+                                </p>
+                                <div class="details">
+                                    <div class="img-box">
+                                        <img src="./img/users/user3.jpg" alt="">
+                                    </div>
+                                    <h3>Mrs Afe<br><span>CEO Photonet</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-box">
+                            <i class="fas fa-quote-left"></i>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi deleniti, 
+                                    nobis optio facere amet repudiandae possimus facilis velit dolore 
+                                    incidunt! Cumque placeat corporis fugiat id?
+                                </p>
+                                <div class="details">
+                                    <div class="img-box">
+                                        <img src="./img/users/user4.jpg" alt="">
+                                    </div>
+                                    <h3>David Chiwell<br><span>Dominos Pizza</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-box">
+                            <i class="fas fa-quote-left"></i>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi deleniti, 
+                                    nobis optio facere amet repudiandae possimus facilis velit dolore 
+                                    incidunt! Cumque placeat corporis fugiat id?
+                                </p>
+                                <div class="details">
+                                    <div class="img-box">
+                                        <img src="./img/users/user5.jpg" alt="">
+                                    </div>
+                                    <h3>Oma Books<br><span>Book Store</span></h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -289,7 +346,7 @@
     <section class="contact-us p-5" id="contact">
         <div class="container">
             <div class="row">
-                <div class="col left">
+                <div class="col left" data-aos="fade-right" data-aos-duration="1500">
                     <div class="section-title mb-2">
                         <p>Contact Us</p>
                         <h2>Let's get in touch</h2>
@@ -321,7 +378,7 @@
                         <img src="" alt="">
                     </div>
                 </div>
-                <div class="col right">
+                <div class="col right" data-aos="fade-left" data-aos-duration="1500">
                     <h2 class="mb-2">Share your idea or requirements with us</h2>
                     <div class="contact-form">
                         <form action="#">
@@ -359,7 +416,7 @@
     <footer class="footer p-5">
         <div class="container">
             <div class="row space-between">
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="1500">
                     <!-- <img src="./img/logo.png" alt=""> -->
                     <p class="mb-2">Overall Client Rating 4.9 out of 5</p>
                     <div class="social">
@@ -368,7 +425,7 @@
                         <i class="fab fa-linked-in"></i>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="1500">
                     <h3>Contact Us</h3>
                     <ul>
                         <li>
@@ -388,7 +445,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="1500">
                     <h3>Company</h3>
                     <ul>
                         <li>
@@ -405,7 +462,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="1500">
                     <h3>Services</h3>
                     <ul>
                         <li>
@@ -430,9 +487,32 @@
         </div>
     </footer>
 
-    <script src="./js/own-carousel.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/aos.js"></script>
     <script src="./js/main.js"></script>
-    <!-- <script src="./js/"></script> --
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+        },
+        loop: true,
+        autoplay: {
+            delay: 5000
+        }
+        });
+
+        AOS.init();
+    </script>
 </body>
 
 </html>
