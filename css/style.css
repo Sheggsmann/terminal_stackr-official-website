@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;700;900&display=swap');
+
 :root {
     --dark: #0b0b0f;
     --dark-gray: #131419;
@@ -9,7 +11,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 body {
